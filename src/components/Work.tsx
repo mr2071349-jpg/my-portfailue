@@ -4,6 +4,8 @@ import WorkImage from "./WorkImage";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+gsap.registerPlugin(ScrollTrigger);
+
 const Work = () => {
   const container = useRef<HTMLDivElement>(null);
 
